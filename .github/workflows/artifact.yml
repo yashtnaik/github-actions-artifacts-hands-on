@@ -28,8 +28,9 @@ jobs:
           with:
             name: hello-artifact
         - name: read the artifact
-          run: ls hello-.txt
+          run: cat hello.txt
       
+
 
 
 
